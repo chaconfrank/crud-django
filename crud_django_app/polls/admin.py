@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import Question, Choice
+from polls.domain.entity.question import Question
+from polls.domain.entity.choice import Choice
 
 
 class ChoiceInLine(admin.StackedInline):

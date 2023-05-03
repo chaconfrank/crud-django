@@ -4,7 +4,8 @@ from django.urls import reverse
 from django.views import generic
 from django.utils import timezone
 
-from .models import Question, Choice
+from polls.domain.entity.question import Question
+from polls.domain.entity.choice import Choice
 
 
 class IndexView(generic.ListView):

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "crud-django-app"
+version = "0.1.0"
+description = ""
+authors = ["chaconfrank <fchacon@webs314.com>"]
+readme = "README.md"
+packages = [{include = "crud_django_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asgiref = "^3.6.0"
+django = "^4.2"
+sqlparse = "^0.4.4"
+attr = "^0.3.2"
+djangorestframework = "^3.14.0"
+markdown = "^3.4.3"
+django-filter = "^23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
